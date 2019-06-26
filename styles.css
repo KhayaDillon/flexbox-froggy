@@ -136,3 +136,16 @@ align-self: flex-end;
 order: 1;
 align-self: flex-end;
 }
+
+/*
+The flex-wrap property accepts the following values:
+
+nowrap: Every item is fit to a single line.
+wrap: Items wrap around to additional lines.
+wrap-reverse: Items wrap around to additional lines in reverse.
+*/
+
+#pond {
+  display: flex;
+flex-wrap: wrap;
+}
