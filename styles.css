@@ -125,7 +125,7 @@ Use the order property to reorder the frogs according to their lilypads.
   align-items: flex-start;
 }
 .yellow {
-align-self: flex-end;
+	align-self: flex-end;
 }
 
 #pond {
@@ -133,8 +133,8 @@ align-self: flex-end;
   align-items: flex-start;
 }
 .yellow {
-order: 1;
-align-self: flex-end;
+	order: 1;
+	align-self: flex-end;
 }
 
 /*
@@ -146,6 +146,18 @@ wrap-reverse: Items wrap around to additional lines in reverse.
 */
 
 #pond {
-  display: flex;
-flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
 }
+
+#pond {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+#pond {
+	display: flex;
+	flex-flow: column wrap;
+}
+
